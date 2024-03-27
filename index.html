@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Invocando a el tipo de letra de google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Workbench&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Workbench&display=swap" rel="stylesheet">
+    <!--llamando a bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!--llamando a css-->
+    <link rel="stylesheet" href="css/estilos1.css">
+    <title>Mi Biografia</title>
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <h1>ACERCA DE MI</h1>
+        
+    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#quien-soy-xd">Quien soy?</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#carouselExampleCaptions">Cosas que me gustan</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="mas" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  CONOCE MAS SOBRE MI
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Paginas/pag1.html">Mis Materias</a></li>
+                  <li><a class="dropdown-item" href="Paginas/pag2.html">Mis hobbies</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="Paginas/pag3.html">Otros intereses</a></li>
+                </ul>
+              </li>
+            </ul>
+        </div>
+        </div>
+      </nav>
+
+        <div class="container">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/goku.jpg" class="d-block w-100" alt="Dragon ball">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5 class="colores">Dragon ball</h5>
+                        <p class="coloresh5">Es una serie que veo desde que tengo memoria</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/spidey.jpeg" class="d-block w-100" alt="Spiderman">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="colores2">SpiderMan</h5>
+                        <p class="coloresh2">Es mi super heroe favorito y del que mas me inspiro.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/red.jpeg" class="d-block w-100" alt="Red dead Redemption 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="colores2">Red Dead Redemption 2</h5>
+                        <p class="coloresh2">Uno de mis videojuegos favoritos, del cual me fascina su historia.</p>
+                    </div>
+                </div>
+        </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="container">
+          <div class="card" style="width: 18rem;">
+            <img src="img/yo.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" id="quien-soy-xd">Quien soy?</h5>
+              <p class="card-text">Me llamo Ruben Ignacio Bautista Apaza, tengo 18 años y soy estudiante de la carrera de informatica en la UMSA.</p>
+              <p class="card-text">Para conocer mas sobre mi <a href="#mas"> haz click aqui </a> y luego ingresa a "CONOCE MAS SOBRE MI" o usa los botones que estan aqui abajo</p>
+            </div>
+          </div>
+          <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item"><a class="page-link" href="Paginas/pag1.html">Mis Materias</a></li>
+              <li class="page-item"><a class="page-link" href="Paginas/pag2.html">Mis Hobbies</a></li>
+              <li class="page-item"><a class="page-link" href="Paginas/pag3.html ">Otros intereses</a></li>
+            </ul>
+          </nav>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+<!--<a href="..//index">volver</a>Para hacer un pequeño link para volver al index
+        en la pagina 1 se debe poner: el index con carrusel, biografia 
+        en la pagina 2 poner que estamos pasando, es decir materias
+        en la pagina 3 poner: hobbies
+        en la pagina 4 poner otros intereses 
+        usar 5 componentes mas, carrusel, modal, y 3 mas
+        buscas como usar el google fonts-->

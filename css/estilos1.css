@@ -1,0 +1,61 @@
+body{
+    margin: 20px;
+
+}
+
+h1{
+    font-family: "Workbench", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+.container-fluid{
+    background-color: skyblue;
+    margin-top: 1px;
+    width: 800px;
+    height: 80px;
+    border: solid black 5px;
+}
+.container{
+    background-color: mediumaquamarine;
+    margin-top: 30px;
+    width: 800px;
+    height: auto;
+    margin-top: 1px;
+    border: solid black 5px;
+}
+#carouselExampleCaptions{
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+}
+.card{
+    margin-top: 25px;
+    margin-left: 240px;
+    margin-bottom: 20px;
+}
+.colores{
+    font-size: 50px;
+    font-family: "Edu NSW ACT Foundation", cursive;
+    color: black;
+}
+.coloresh5{
+    font-size: 20px;
+    font-family: "Edu NSW ACT Foundation", cursive;
+    color: black;
+}
+.colores2{
+    font-size: 50px;
+    font-family: "Edu NSW ACT Foundation", cursive;
+    color: white;
+}
+.coloresh2{
+    font-size: 20px;
+    font-family: "Edu NSW ACT Foundation", cursive;
+    color: white;
+}
+.accordion{
+    margin-top: 20px;
+    margin-bottom:  20px;
+}
